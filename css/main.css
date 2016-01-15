@@ -57,12 +57,12 @@ body {
 .time-lapsed{
   position: absolute;
   left: 60px;
-  top: 5;
+  top: 25px;
 }
 
 .time-total{
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 5px;
 }
 
@@ -70,7 +70,8 @@ body {
   font-size: 15px;
   position: absolute;
   left: 4em;
-  top: 5px}
+  top: 5px
+}
 
 .control-heart{
   position: absolute;
