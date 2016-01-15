@@ -51,11 +51,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-
 }
 
 .time-lapsed{
-  position: absolute;
+  position:absolute;
   left: 60px;
   top: 25px;
 }
