@@ -49,22 +49,39 @@ body {
   width: 50px;
 
   position: absolute;
-
   top: 0;
   left: 0;
 
 }
 
 .time-lapsed{
+  position: absolute;
+  left: 60px;
+  top: 30;
+}
+
+.time-total{
+  position: absolute;
+  top: 30px;
+  right: 5px;
 }
 
 .control-shuffle{
   position: absolute;
-  left: 0;
+  left: 2em;
+  top: 10px;
 }
 
 .control-heart{
-  right: 0;
+  position: absolute;
+  top:10px;
+  right: 30px;
+}
+
+.control-list{
+  position: absolute;
+  top: 10px;
+  right: 5px;
 }
 
 .time-bar {
