@@ -57,7 +57,7 @@ body {
 .time-lapsed{
   position: absolute;
   left: 60px;
-  top: 30;
+  top: 5;
 }
 
 .time-total{
@@ -67,15 +67,16 @@ body {
 }
 
 .control-shuffle{
+  font-size: 15px;
   position: absolute;
-  left: 2em;
-  top: 10px;
-}
+  left: 4em;
+  top: 5px}
 
 .control-heart{
   position: absolute;
   top:10px;
   right: 30px;
+  font-size: 15px;
 }
 
 .control-list{
