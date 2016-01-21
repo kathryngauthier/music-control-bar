@@ -14,7 +14,7 @@ html {
   font-family: sans-serif;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-.music-bar{
+.music-bar {
   min-height: 50px;
   padding-top: 6px;
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
@@ -33,58 +33,58 @@ body {
   top: 0;
 }
 
-.song{
+.song {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
 }
 
-.band{
+.band {
   font-size: .8rem;
   margin: 0;
   color: #666;
 }
 
-.album{
+.album {
   width: 50px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.time-lapsed{
+.time-lapsed {
   position: absolute;
   left: 60px;
   top: 25px;
 }
 
-.time-total{
+.time-total {
   position: absolute;
   top: 25px;
   right: 5px;
 }
 
-.control-shuffle{
+.control-shuffle {
   font-size: 15px;
   position: absolute;
   left: 4em;
   top: 5px
 }
 
-.control-heart{
+.control-heart {
   position: absolute;
   top:10px;
   right: 30px;
   font-size: 15px;
 }
 
-.control-list{
+.control-list {
   position: absolute;
   top: 10px;
   right: 5px;
 }
 
-.time-bar{
+.time-bar {
   height: 8px;
   margin: 0;
   padding: 0;
@@ -104,25 +104,25 @@ body {
   They’re just there to colour the progress bar
 */
 
-.time-bar::-moz-progress-bar{
+.time-bar::-moz-progress-bar {
   background-color: #666;
 }
 
-.time-bar::-webkit-progress-value{
+.time-bar::-webkit-progress-value {
   background-color: #666;
 }
 
 /* END DON’T TOUCH ZONE */
 
-.time-lapsed{
+.time-lapsed {
   font-size: .7rem;
 }
 
-.time-total{
+.time-total {
   font-size: .7rem;
 }
 
-.controls{
+.controls {
   margin: 0;
   padding: 0;
   color: #666;
